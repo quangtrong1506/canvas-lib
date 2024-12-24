@@ -1,0 +1,17 @@
+{
+    "name": "simple-canvas",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc -w"
+    },
+    "peerDependencies": {
+        "react": "^18"
+    },
+    "devDependencies": {
+        "@types/react": "^18",
+        "typescript": "^5.0.0"
+    }
+}

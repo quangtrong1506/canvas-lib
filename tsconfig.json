@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6", // Chuyển target sang ES6 thay vì ES5
+        "lib": ["es6", "DOM"],
+        "module": "commonjs",
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "strict": true
+    },
+    "include": ["src"]
+}
