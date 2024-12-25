@@ -1,2 +1,1 @@
-export { drawImageOnCanvas } from './draw-image';
-export * from './test';
+export * from './images';
