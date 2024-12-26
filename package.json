@@ -5,13 +5,15 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "start": "tsc -w"
+        "start": "tsc -w",
+        "dev": "tsc-watch --onSuccess \"node dist/test/index.js\""
     },
     "peerDependencies": {
         "react": "^18"
     },
     "devDependencies": {
         "@types/react": "^18",
+        "tsc-watch": "^6.2.1",
         "typescript": "^5.0.0"
     }
 }
